@@ -463,6 +463,15 @@ footer .subscribe .subscribe-form-2 .form-group {
     transition: all 0.3s ease;
 }
 
+.foxapp-header.default-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 13px 35px -12px rgba(0, 0, 0, 0.15);
+    animation: menu_sticky 0.7s ease-in-out;
+    background: #1160a6;
+}
+
 .foxapp-header.sticky {
     position: fixed;
     top: 0;
